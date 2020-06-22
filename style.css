@@ -1,10 +1,12 @@
 body {
   margin: 0;
+  font-family: sans-serif;
 }
 
 #container {
   background: rgba(220, 135, 130, 0.76);
 }
+
 .navbar{
 position: sticky;
 height: 72px;
@@ -67,6 +69,8 @@ align-items: center;
 .intro-img-div {
   width: 400px;
   height: 400px;
+  margin-top: 20px;
+  border-radius: 50%;
   overflow: hidden;
 }
 
